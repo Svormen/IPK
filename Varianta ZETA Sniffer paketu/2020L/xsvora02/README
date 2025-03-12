@@ -1,0 +1,15 @@
+IPK – Počítačové siete a komunikácia - Varianta ZETA: Sniffer paketov
+-Práca s TCP a UDP by mala pracovať v poriadku.
+-Zachytávanie  arp rámcov a spracovavanie icmp paketov sa mi implementovať z časového hladiska bohužial nepodarilo.(poučenie do budúcna).
+
+Zoznam odovzdaných súborov:
+1. ipk-sniffer.cpp
+2. Makefile
+3. README
+4. manual.pdf
+
+Príklady spustenia:
+$ sudo ./ipk-sniffer
+$ sudo ./ipk-sniffer -i eth0
+$ sudo ./ipk-sniffer -i eth0 -n 2
+$ sudo ./ipk-sniffer -i eth0 --udp
